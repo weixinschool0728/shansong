@@ -1,0 +1,58 @@
+<!DOCTYPE html >
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC_HOME__/Css/public.css">
+<link rel="stylesheet" type="text/css" href="__PUBLIC_HOME__/Css/head.css">
+<title><{$title}></title>
+</head>
+
+<body>
+<a name="top"></a>
+<div class="top"><!--顶部-->
+<div class="top1">
+<span class="span1">
+<a  href="#" class="red">登录</a><a href=<?php echo "{$index_address}zhuce/zhuce-1.html"; ?>>注册</a><a id="noborder" href="#">手机婚拉拉</a>
+</span>
+<span class="span2">
+<a  href="#">我的订单</a><a  href="#">我的婚拉拉</a><a  href="#">购物车</a><a  href="#">我是婚礼人</a><a href="#">最近浏览</a><a href="#">联系客服</a><a id="noborder" href="#">最近浏览</a>
+</span>
+</div>
+</div><!--//顶部-->
+<div class="logo"><!--logo-->
+<div class="logol"></div>
+<div class="serch">
+<form name="searchform" action="serch.php" method="get">
+<input class="inputsr" type="text" name="sp" value="" placeholder="摄像 500 岳麓区" maxlength="100" />
+<input class="submitsr" type="submit" name="sr" value="搜索" />
+</form>
+</div>
+<div class="logor">
+<div class="phone1"><img src=<?php echo "{$index_address}images/phone-blue.jpg"; ?> /></div>
+<div class="phone23">
+<div class="phone2">婚礼咨询免费热线</div>
+<div class="phone3">6666-666-666</div>
+</div>
+</div>
+</div><!--//logo-->
+<div class="menu"><!--导航-->
+<div class="menu_l">特色婚啦啦</div>
+<div class="menu_r">
+<ul>
+<li><a href=<?php echo "{$index_address}index.php"; ?>>首页</a></li>
+<li><a href=<?php echo "{$category_address}cehua.php";?>>策划师</a></li>
+<li><a href=<?php echo "{$category_address}siyi.php";?>>司仪</a></li>
+<li><a href=<?php echo "{$category_address}shexiang.php";?>>摄像</a></li>
+<li><a href=<?php echo "{$category_address}sheying.php";?>>摄影</a></li>
+<li><a href=<?php echo "{$category_address}chedui.php";?>>车队</a></li>
+<li><a href=<?php echo "{$category_address}genzhuang.php";?>>跟妆</a></li>
+<li><a href=<?php echo "{$category_address}buzhi.php";?>>布置</a></li>
+<li><a href=<?php echo "{$category_address}yanyi.php";?>>演艺</a></li>
+<li><a href=<?php echo "{$category_address}wumei.php";?>>舞美</a></li>
+<li><a href=<?php echo "{$category_address}jiudian.php";?>>酒店</a></li>
+<li><a href=<?php echo "{$category_address}xipu.php";?>>喜铺</a></li>
+</ul>
+</div>
+</div><!--//导航-->
+</body>
+</html>

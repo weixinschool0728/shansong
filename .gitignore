@@ -1,0 +1,10 @@
+/Application/Runtime
+/nbproject
+/.project
+/h
+/README.md
+/.settings
+/.buildpath
+/Application/Admin/Conf/config.php
+/Application/Common/Conf/config.php
+/Application/Home/Conf/config.php
